@@ -66,7 +66,7 @@ public class PostActivity extends AppCompatActivity {
         setContentView(R.layout.activity_post);
 
         mprogressbar = new ProgressDialog(this);
-        mDatabase = FirebaseDatabase.getInstance().getReference().child("Pendente");
+        mDatabase = FirebaseDatabase.getInstance().getReference().child("Blog");
         mStorageRef = FirebaseStorage.getInstance().getReference();
         mPostTitle = findViewById(R.id.editText1);
         mPostDesc = findViewById(R.id.editText2);
