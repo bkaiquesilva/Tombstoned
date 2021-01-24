@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ques">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/titu"
+        android:text="DIREITOS AUTORAIS"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:textStyle="normal"
+        android:padding="4dp"
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <TextView
+        android:textStyle="normal"
+        android:padding="4dp"
+        android:id="@+id/b"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="P. Fb: @EdebelzaakSOTecnologia"
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceSmall"/>
+
+    <TextView
+        android:textStyle="normal"
+        android:padding="4dp"
+        android:id="@+id/c"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="C.r.u.e.l: +55 (33)998285010"
+        android:textColor="@color/black"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="end"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt"
+        android:text="POSITIVO"
+        />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#03A9F4</color>
+    <color name="colorPrimaryDark">#03A9F4</color>
+    <color name="colorAccent">#03A9F4</color>
+    <color name="black">#000000</color>
+    <color name="branco">#ffffff</color>
+    <color name="purple_800">#990b12</color>
+    <color name="deep_purple_800">#4527A0</color>
+    <color name="purple_500">#7c148e</color>
+    <color name="greyColor">#c2c2c2</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey_10">#e6e6e6</color>
+    <color name="grey_20">#cccccc</color>
+</resources>

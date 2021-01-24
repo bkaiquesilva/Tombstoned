@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.so.debelzaak.evolution.libertar.ShowActivity.MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/gh"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:actionBarSize"
+            android:orientation="horizontal">
+
+            <AutoCompleteTextView
+                android:id="@+id/pesquiser"
+                android:layout_weight="1"
+                android:inputType="text"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/ques"
+                android:cursorVisible="false"
+                android:hint="@string/digi"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimary" />
+
+            <ImageView
+                android:layout_width="?android:actionBarSize"
+                android:src="@drawable/ic_search"
+                android:padding="12dp"
+                android:id="@+id/btnsearch"
+                android:layout_height="?android:actionBarSize" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/branco"
+        android:layout_below="@+id/gh"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="170dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/branco"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_height="170dp"
+        android:orientation="vertical"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/lt_backg"
+        android:layout_below="@+id/gh"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="?actionBarSize"
+                android:src="@drawable/ic_add_black_24dp"
+                android:padding="12dp"
+                android:id="@+id/postar"
+                android:layout_above="@id/likku"
+                android:layout_marginTop="130dp"
+                android:layout_height="?actionBarSize" />
+
+            <RelativeLayout
+                android:layout_width="?android:actionBarSize"
+                android:padding="12dp"
+                android:id="@+id/likku"
+                android:layout_marginTop="-10dp"
+                android:layout_above="@id/temam"
+                android:layout_height="?android:actionBarSize">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/sstings"
+                    android:src="@drawable/ic_account"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+            <ImageView
+                android:layout_width="?android:actionBarSize"
+                android:src="@drawable/ic_power"
+                android:id="@+id/ejetar"
+                android:layout_marginTop="-10dp"
+                android:padding="12dp"
+                android:layout_above="@id/securyy"
+                android:layout_height="?android:actionBarSize" />
+
+            <ImageView
+                android:layout_width="?android:actionBarSize"
+                android:src="@drawable/ic_style"
+                android:id="@+id/temam"
+                android:onClick="excolhe"
+                android:layout_marginTop="-10dp"
+                android:padding="12dp"
+                android:layout_above="@id/ejetar"
+                android:layout_height="?android:actionBarSize" />
+
+            <ImageView
+                android:layout_width="?android:actionBarSize"
+                android:src="@drawable/ic_security"
+                android:id="@+id/securyy"
+                android:onClick="privacidade"
+                android:layout_marginTop="-10dp"
+                android:padding="12dp"
+                android:layout_above="@id/lixxo"
+                android:layout_height="?android:actionBarSize" />
+
+            <ImageView
+                android:layout_width="?android:actionBarSize"
+                android:src="@drawable/ic_pendente"
+                android:id="@+id/lixxo"
+                android:layout_marginTop="-10dp"
+                android:padding="12dp"
+                android:layout_above="@+id/barrar"
+                android:layout_height="?android:actionBarSize" />
+
+            <ImageView
+                android:layout_width="?android:actionBarSize"
+                android:src="@drawable/ic_exitapp_24"
+                android:id="@+id/barrar"
+                android:rotation="180"
+                android:layout_marginTop="-10dp"
+                android:padding="12dp"
+                android:layout_alignParentBottom="true"
+                android:layout_height="?android:actionBarSize" />
+
+        </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/blog_list"
+                android:layout_width="match_parent"
+                tools:listitem="@layout/blog_row"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scrollbars="none" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

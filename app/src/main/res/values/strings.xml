@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Tombstoned</string>
+
+    <string name="enter_yor_text">Escreva um comentário...</string>
+    <string name="enter_your_dispaly_name">Escreva seu nome...</string>
+    <string name="post_title">Evolução das espécies</string>
+    <string name="post_description">A evolução deve-se a uma série de processos naturais, tais como a mutação e deriva genética...</string>
+    <string name="link_fonte">Link da fonte</string>
+    <string name="fontess">Fonte</string>
+    <string name="digi">Tombstoned - Mais Ciência!</string>
+    <string name="diaed">App Tombstoned</string>
+
+    <string-array name="temmas">
+        <item>geral</item>
+        <item>física</item>
+        <item>química</item>
+        <item>genética</item>
+        <item>geologia</item>
+        <item>biologia</item>
+        <item>anatomia</item>
+        <item>medicina</item>
+        <item>botânica</item>
+        <item>zoologia</item>
+        <item>molecular</item>
+        <item>fisiologia</item>
+        <item>matemática</item>
+        <item>computação</item>
+        <item>sociologia</item>
+        <item>metalurgia</item>
+        <item>psicologia</item>
+        <item>bioquímica</item>
+        <item>tecnologia</item>
+        <item>astronomia</item>
+        <item>agricultura</item>
+        <item>oceanografia</item>
+        <item>antropologia</item>
+        <item>meteorologia</item>
+        <item>paleontologia</item>
+    </string-array>
+
+    <string-array name="temmas1">
+        <item>nenhum</item>
+        <item>física</item>
+        <item>química</item>
+        <item>genética</item>
+        <item>geologia</item>
+        <item>biologia</item>
+        <item>anatomia</item>
+        <item>medicina</item>
+        <item>botânica</item>
+        <item>zoologia</item>
+        <item>molecular</item>
+        <item>fisiologia</item>
+        <item>matemática</item>
+        <item>computação</item>
+        <item>sociologia</item>
+        <item>metalurgia</item>
+        <item>psicologia</item>
+        <item>bioquímica</item>
+        <item>tecnologia</item>
+        <item>astronomia</item>
+        <item>agricultura</item>
+        <item>oceanografia</item>
+        <item>antropologia</item>
+        <item>meteorologia</item>
+        <item>paleontologia</item>
+    </string-array>
+</resources>

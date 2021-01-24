@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.so.debelzaak.evolution.libertar.MainSob">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:id="@+id/gh"
+            android:gravity="center"
+            android:padding="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/branco"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/branco"
+        android:layout_below="@+id/gh"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="170dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/branco"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_height="170dp"
+        android:orientation="vertical"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/lt_backg"
+        android:layout_below="@+id/gh"
+        android:layout_marginTop="10dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="?android:actionBarSize"
+                android:src="@drawable/ic_arrow_doww"
+                android:id="@+id/ejetar"
+                android:layout_marginBottom="-20dp"
+                android:padding="12dp"
+                android:layout_above="@id/likku"
+                android:layout_height="?android:actionBarSize" />
+
+            <RelativeLayout
+                android:layout_width="?android:actionBarSize"
+                android:padding="12dp"
+                android:id="@+id/likku"
+                android:layout_centerInParent="true"
+                android:layout_height="?android:actionBarSize">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="match_parent"
+                    android:id="@+id/sstings"
+                    android:src="@drawable/ic_account"
+                    android:layout_height="match_parent" />
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/blog_list"
+                android:layout_width="match_parent"
+                tools:listitem="@layout/blog_row"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:scrollbars="none" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
